@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juhan autohalli</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Juhan Autotalli</h1>
+        <nav class="urpo">
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="alku.html">Autotallin synty</a></li>
+                <li><a href="camaro.html">Juhan Auto</a></li>
+                <li><a href="mash.html">Juhan Mopo</a></li>
+                <li><a href="tapahtumat.html">Yhteydenotto</a></li>
+                <li><a href="salainenmigga.html">???</a></li>
+                <li><a href="Migger.html">Muu tärkeä</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero9">
+            <h1>Juhan autotalli – enemmän kuin pelkkä talli</h1>
+            <p>Juhan autotalli ei ole mikään tavallinen peltihalli. Se on pyhäkkö. Pyhä paikka öljyisille käsille, bensankatkulle ja loputtomalle näpräykselle. Se on paikka, missä aika pysähtyy ja vanhat projektit unohtuvat vuosiksi pölykerroksen alle – ja silti jokaisella ruuvilla on oma tarinansa. <strong><br>Juhan autotalliin pääsee vain todella harva, sillä Juha ei pidä vieraista. Olemme kuitenkin saaneet luvan tutkia tätä eksoottista paikkaa. Tämä on "Once In A Lifetime" kokemus, joten olethan valmiina?</strong></p>
+                       <p>Juha on kätkenyt autotalliinsa paljon salaisuuksia.</p>
+            <p>Vain hyvin harva niistä ja vaikka me emme saaneetkaan vierailullamme nähdä paljoa</p>
+            <p>niin kyll Juha meille tämän näytti.</p>
+
+            <button onclick="showcontent()">
+                Paina nähdäksesi
+              </button>
+              <div id="migga">
+                <img src="img/migger.jpg" alt="skibidi">
+                <p>Wahnha Kunnon Migger, Tämä muinainen hitsauskone on juuri sen kuuloinen minkä löydät isoisäsi sanavarastosta alkaen N kirjaimella</p>
+                <p>Laite itsessään on kuitenkin todella tarkasti suojattu ja siitä ei kerrottu sen enempää, Olemme kuitenkin iloisia että pääsimme sen näkemään</p>
+              </div>
+              <script>
+                function showcontent() {
+                  document.getElementById('migga').style.display = 'block';
+                }
+              </script>
+              <!--Anna Mika anteeks että käytin js kurssilla jossa ei ole js-->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Juhan Autotalli</p>
+    </footer>
+</body>
+</html>

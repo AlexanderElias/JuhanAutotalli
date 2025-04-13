@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("../img/halli.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgoldenrod;
+    color: white;
+    height: 50px;
+    border-radius: 25px;
+    padding: 20px; 
+}
+
+.paska {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+h1 {
+    color: yellow;
+    text-shadow: 2px 5px 2px blue;
+  }
+  h2 {
+    color: yellowgreen;
+    text-shadow: 2px 5px 2px blue;
+  }
+
+p {
+    font-size: 25px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    margin:0 7px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+
+.hero {
+    background-color: goldenrod;
+    border-radius: 25px;
+    padding: 20px; 
+
+}
+
+.hero0 {
+    background-color: goldenrod;
+    border-radius: 25px;
+    padding: 20px; 
+}
+.hero9 {
+    background-color: goldenrod;
+    border-radius: 25px;
+    padding: 20px; 
+}
+.hero2 {
+    background-color: goldenrod;
+    padding: 50px;
+    border-radius: 25px;
+    padding: 20px; 
+
+}
+.hero3 {
+    background-color: goldenrod;
+    padding: 50px;
+    border-radius: 25px;
+    padding: 20px; 
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.videoraja {
+    width:560px; 
+    height:415px;
+}
+
+
+footer {
+    background-color: goldenrod;
+    color: white;
+    border-radius: 25px;
+    padding: 20px; 
+    margin-top: 20px;
+}
+
+
+@media (max-width:768px) {
+    
+    .urpo {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .hero9 {
+        width: 500px;
+        height: 1050px;
+    }
+    .hero0 {
+        width: 500px;
+        height: 1600px;
+        
+    }
+    .hero {
+        width: 500px;
+        height: 900px;
+
+    
+    }
+    .hero2 {
+        width: 500px;
+        height: 200px;
+    }
+    .hero3 {
+        width: 500px;
+        height: 700px;
+    }
+
+    footer {
+        width: 580px;
+
+    }
+    
+    p {
+        font-size:large;
+    }
+        nav ul {
+            flex-direction:row;
+            align-items: center;
+        }
+    
+        header {
+            width: 560px;
+        
+    }
+    .paska {
+        height:auto;
+        width:300px;
+    }
+}
+
+
+@media (max-width:1050px) {
+    
+    .videoraja {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.vasuri {
+    float:left;
+    margin-right: 20px;
+    
+}
+.vasuri2 {
+    float:left;
+    margin-right: 20px;
+}
+
+#mash {
+    float: left;
+    clip-path: circle(60%);
+}
+
+.contti {
+    clear: both;
+}
+
+
+#migga {
+    display: none;
+    margin-top: 20px;
+  }
+
+  #migga img {
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }

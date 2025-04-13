@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juhan autohalli</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Juhan Autotalli</h1>
+        <nav class="urpo">
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="alku.html">Autotallin synty</a></li>
+                <li><a href="camaro.html">Juhan Auto</a></li>
+                <li><a href="mash.html">Juhan Mopo</a></li>
+                <li><a href="tapahtumat.html">Yhteydenotto</a></li>
+                <li><a href="salainenmigga.html">???</a></li>
+                <li><a href="Migger.html">Muu tärkeä</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Yhteydenotto</h2>
+            <p>Yhteydenotto Juhaan voi olla hankalaa, sillä hän on usein siivoamassa huonettaan, pakkaamassa reppua, korjaamassa mummonsa kattoa tai vastaavaa.</p>
+            <p>Jos olet kuitenkin vakuuttunut että haluat mahdollisuuden päästä Juhan autotalliin, niin voit laittaa matkaan kirjekyyhkyysen ja toivoa että se menee perille.</p>
+            <p>Voit myös jättää tähän virallisen pyyntö anomuksen:</p>
+            <table style="text-align: left;">
+                <tr>
+                    <td><label for="nimi">Nimi:</label></td>
+                    <td><input type="text" id="nimi" name="nimi"><br></td>
+                </tr>
+            
+                <tr>
+                    <td><label for="puhnro">Puhelinumero:</label></td>
+                    <td><input type="text" id="puhnro" name="puhnro"><br></td>
+                </tr>
+            
+                <tr>
+                    <td><label for="saposti">Sähköposti:</label></td>
+                    <td><input type="text" id="saposti" name="saposti"><br></td>
+                </tr>
+            
+                <tr>
+                    <td><label for="sukupuoli">Sukupuolesi</label></td>
+                    <td>
+                        <select name="sukupuoli" id="sukupuoli">
+                            <option value="Mies">Veli</option>
+                            <option value="Nainen">Sisko</option>
+                        </select>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td style="vertical-align: top;">
+                        <p>Avoin Hakemus</p>
+                    </td>
+                    <td>
+                        <div style="display: flex; align-items: flex-start;">
+                            <textarea name="Ruokalasolitänäähyvääruokaa" rows="2" cols="50" style="flex: 2;"></textarea>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            
+            <br>
+            <div style="text-align: left;">
+                <input type="submit" value="lähetä" onclick="location.href='tapah2.html';">
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Juhan Autotalli</p>
+    </footer>
+</body>
+</html>
